@@ -1,7 +1,109 @@
-/* Reset CSS */
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
 }
 
+.text {
+    margin: 1rem 2rem;
+    text-align: center;
+}
+
+.text-gradient {
+    text-transform: uppercase;
+    font-size: 5rem;
+    font-weight: bold;
+    display: inline-block;
+
+    background-image: linear-gradient(to left, #ff4895, #ffd96a);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80vw;
+    margin: 5rem auto 0;
+    /* min-height: 100vh; */
+}
+
+
+.btn {
+    flex: 1 1 auto;
+    text-transform: uppercase;
+    margin: 1rem;
+    padding: 2rem;
+    font-size: 1.2rem;
+    text-align: center;
+    text-decoration: none;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(13, 221, 48, 0.611);
+}
+
+.btn--success {
+    background-image: linear-gradient(to left, #ff4895, #ffd96a);
+}
+
+.btn--information {
+    background-image: linear-gradient(to left, #ff4895, #6af3ff);
+}
+
+.btn--contact {
+    background-image: linear-gradient(to left, #ff4895, #6affa3);
+}
+
+.btn--warning {
+    background-image: linear-gradient(to left, #ff4895, #ff6ac1);
+}
+
+.btn--buy {
+    background-image: linear-gradient(to left, #ff4895, #f5ff6a);
+}
+
+.btn--delete {
+    background-image: linear-gradient(to left, #48cbff, #ffd96a);
+}
+
+.ul {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.color_item {
+    width: 10rem;
+    height: 15rem;
+    border-radius: 4px;
+    margin-left: 2rem;
+    margin-bottom: 4rem;
+    display: inline-block;
+}
+
+.color_item:first-child {
+    background-color: #a24bf0;
+}
+
+.color_item:nth-child(2) {
+    background-color: #a38dbb;
+}
+
+.color_item:nth-child(3) {
+    background-color: #1e667e;
+}
+
+.color_item:nth-child(4) {
+    background-color: #919811;
+}
+
+
+.color_item:last-child{
+    background-color: #db0909;
+}
+
+/* .color_item:nth-last-child(4) {
+    background-color: #fff;
+} */
